@@ -60,7 +60,7 @@ namespace RateService.Services
                 return response;
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
                 return -1;
@@ -102,7 +102,7 @@ namespace RateService.Services
                 return 1;
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
                 return -1.0;
@@ -139,7 +139,7 @@ namespace RateService.Services
                 return 1;
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return -1;
             }
